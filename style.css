@@ -392,6 +392,9 @@ nav{
 .project-image:hover {
     box-shadow: 0 15px 40px rgba(0,0,0,0.25);
 }
+.project-h5{
+    color: white;
+}
 
 @keyframes fill{
     from{
@@ -560,9 +563,10 @@ footer{
 
 
 .footer{
+    margin-bottom: -25px;
     background:black;
     color:white;
-    padding:50px 10% 20px;
+    padding:10px 10% 20px;
 }
 
 .footer-container{
@@ -579,6 +583,7 @@ footer{
 
 .footer-logo p{
     color:#cbd5e1;
+    
 }
 
 .footer-links{
@@ -588,14 +593,14 @@ footer{
 
 .footer-links h4,
 .footer-social h4{
-    margin-bottom:15px;
+    margin-bottom:10px;
     color:#3b82f6;
 }
 
 .footer-links a{
     color:#cbd5e1;
     text-decoration:none;
-    margin-bottom:10px;
+    margin-bottom:5px;
     transition:.3s;
 }
 
@@ -617,7 +622,7 @@ footer{
 }
 
 .footer hr{
-    margin:30px 0 20px;
+    margin:30px 0 ;
     border:0;
     border-top:1px solid rgba(255,255,255,.1);
 }
@@ -625,6 +630,7 @@ footer{
 .copyright{
     text-align:center;
     color:#94a3b8;
+   
 }
 
 @media(max-width:768px){
